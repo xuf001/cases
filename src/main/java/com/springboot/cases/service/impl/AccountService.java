@@ -1,3 +1,4 @@
+/*
 package com.springboot.cases.service.impl;
 
 import com.springboot.cases.dao.AccountMapper;
@@ -11,24 +12,25 @@ import java.util.List;
 @Service
 public class AccountService  {   //implements IAccountService
 
-    @Autowired
-    public AccountMapper accountMapper;
-
-    public int add(String name, double money) {
-        return accountMapper.add(name, money);
-    }
-    public int update(String name, double money, int id) {
-        return accountMapper.update(name, money, id);
-    }
-    public int delete(int id) {
-        return accountMapper.delete(id);
-    }
-    public Account findAccount(int id) {
-        return accountMapper.findAccount(id);
-    }
-    public List<Account> findAccountList() {
-        return accountMapper.findAccountList();
-    }
+//    @Autowired
+//    public AccountMapper accountMapper;
+//
+//    public int add(String name, double money) {
+//        return accountMapper.add(name, money);
+//    }
+//    public int update(String name, double money, int id) {
+//        return accountMapper.update(name, money, id);
+//    }
+//    public int delete(int id) {
+//        return accountMapper.delete(id);
+//    }
+//    public Account findAccount(int id) {
+//        return accountMapper.findAccount(id);
+//    }
+//    public List<Account> findAccountList() {
+//        return accountMapper.findAccountList();
+//    }
+*/
 /*    @Autowired
     IAccountDAO accountDAO;
 
@@ -56,5 +58,7 @@ public class AccountService  {   //implements IAccountService
     @Override
     public List<Account> findAccountList() {
         return accountDAO.findAccountList();
-    }*/
+    }*//*
+
 }
+*/
