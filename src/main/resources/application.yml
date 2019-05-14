@@ -1,0 +1,12 @@
+my:
+    name: Jack
+    age: 123
+
+
+person:
+    name: Tom
+    age: 987
+    uuid: ${random.uuid}
+    max: ${random.int(10)}
+    value: ${random.value}
+    greeting: hi,i'm ${person.name}
