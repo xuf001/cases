@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class CasesApplication implements CommandLineRunner {
+public class CasesApplication { //implements CommandLineRunner
 
     public static Logger logger = LoggerFactory.getLogger(CasesApplication.class);
 
@@ -26,8 +26,8 @@ public class CasesApplication implements CommandLineRunner {
         SpringApplication.run(CasesApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
+//    @Override
+//    public void run(String... args) throws Exception {
 
         /*集成redis*/
         /*redisDao.setKey("name","Jack");
@@ -58,6 +58,6 @@ public class CasesApplication implements CommandLineRunner {
         for(Customer customer:repository.findByLastName("Smith")){
             System.out.println(customer);
         }*/
-    }
+//    }
 
 }
